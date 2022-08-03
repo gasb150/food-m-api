@@ -15,7 +15,7 @@ FoodDish.new(name:"Fries potatos", cost:2355, ingredients:"Potatos, cheese", foo
 
 Menu.new(food_dish_id: 1).save
 
-Restaurant.new(menu_id: 1, owner_id: 2).save
+Restaurant.new(name: 'Fast Fodd example', menu_id: 1, owner_id: 2).save
 
 Vote.new(user_id:1, food_dish_id:1).save
 Vote.new(user_id:2, food_dish_id:1).save
